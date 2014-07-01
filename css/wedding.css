@@ -1,0 +1,135 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* details */
+
+.details {
+  background: #1abc9c;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.details-item {
+  margin-bottom: 15px;
+}
+
+i.details-icon {
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* RSVP */
+
+.rsvp {
+  color: #ffffff;
+  height: 450px;
+  width: 100%;
+  background-color: #3498db;
+  margin-bottom:10px;
+}
+
+.rsvp h2 {
+    text-align: center;
+}
+
+/* photos */
+
+.photos {
+  padding: 50px 0;
+}
+
+.photos-item {
+  margin-bottom: 25px;
+}
+
+.img-photos {
+  margin: 0 auto;
+}
+
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: #0a5175;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 700px;
+}
+
+/* Footer */
+
+footer {
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+.header {
+    background: url(../img/bg.jpg) no-repeat center center scroll; 
+}
+
+.rsvp {
+    background: url(../img/callout.jpg) no-repeat center center scroll; 
+}
+
+.map {
+    height: 90%;
+}
+
+}
