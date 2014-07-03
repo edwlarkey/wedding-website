@@ -50,6 +50,12 @@ body {
 
 .details-item {
   margin-bottom: 15px;
+  color:#ffffff;
+}
+
+.detailLink{
+    color:white !important;
+    text-decoration:underline
 }
 
 i.details-icon {
