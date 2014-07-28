@@ -131,11 +131,12 @@ footer {
 }
 
 .rsvp {
-    background: url(../img/callout.jpg) no-repeat center center scroll; 
+  padding-top: 10px;
+  background-color: #3498db;
 }
 
 .map {
-    height: 90%;
+    display: none;
 }
 
 }
